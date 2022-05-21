@@ -94,7 +94,8 @@ body {
   width: 100%; }
 
 .false-image {
-  display: none; }
+  display: none;
+  margin-bottom: 5%; }
 
 #img1 {
   background-image: url("../images/rp2.jpg"); }
