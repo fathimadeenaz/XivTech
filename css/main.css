@@ -76,6 +76,7 @@ body {
       margin: 100px 0;
       cursor: pointer;
       box-shadow: 0 0 20px 1px rgba(130, 138, 145, 0.2);
+      border-color: transparent;
       background-color: #000;
       background-image: linear-gradient(45deg, #fff 50%, #000 50%);
       background-size: 500% 500%;
