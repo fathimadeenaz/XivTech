@@ -1,0 +1,23 @@
+$laptop: "max-width: 1500px";
+
+@media only screen and ($laptop) {
+    .component {
+        padding: 10% 5%;
+
+        .header-image {
+            width: 100%;
+            // height: 85vh;
+        }
+
+        .header-text {
+            padding-left: 2%;
+        }
+
+        .col {
+
+            &:first-child {
+                padding-right: 15%;
+            }
+        }
+    }
+}

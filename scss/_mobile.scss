@@ -1,0 +1,15 @@
+$mobile: "max-width: 585px";
+
+@media only screen and ($mobile) {
+    .component {
+        background-image: linear-gradient(#202226 7%, #fff 7%);
+
+        .header-image {
+            height: 15em !important;
+        }
+
+        .header-content {
+            font-size: 2em !important;
+        }
+    }
+}
